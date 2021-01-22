@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CheckIns</string>
+    <string name="appCategories">Categorías</string>
+    <string name="appLikes">Favoritos</string>
+    <string name="texto_amigos">amigos</string>
+    <string name="texto_tips">tips</string>
+    <string name="texto_checkins">checkins</string>
+    <string name="texto_fotos">fotos</string>
+    <string name="texto_boton_login">Login con Foursquare</string>
+    <string name="content_logo">Logo</string>
+    <string name="texto_tvPrincipal">Desarrollador por Saúl Maldonado</string>
+    <string name="texto_noCategoria">Categoria Desconocida</string>
+    <string name="detalle">Detalle</string>
+    <string name="texto_boton_like">Like</string>
+    <string name="texto_boton_check_in">Check In</string>
+    <string name="descripcion_icono_estado">Icono estado</string>
+    <string name="descripcion_icono_categoria">Icono Categoria</string>
+    <string name="descripcion_foto_lugar">Foto del lugar</string>
+    <string name="icono_lugares_favoritos">Icono lugares favoritos</string>
+</resources>

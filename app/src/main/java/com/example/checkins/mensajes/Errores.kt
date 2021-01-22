@@ -1,0 +1,12 @@
+package com.example.checkins.mensajes
+
+enum class Errores {
+    NO_HAY_RED,
+    SOLICITUDHTTP_ERROR,
+    NO_HAY_APP_FOURSQUARE,
+    ERROR_CONEXION_FOURSQUARE,
+    ERROR_OBTENER_TOKEN,
+    ERROR_GUARDAR_TOKEN,
+    ERROR_PERMISO_NEGADO,
+    ERROR_QUERY
+}

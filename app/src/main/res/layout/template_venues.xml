@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/ivFoto"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/placeholder_venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/descripcion_foto_lugar" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        style="@style/appThemeTituloCelda"
+        android:text="Nombre del Lugar"
+        android:layout_height="0dp"
+        android:layout_width="match_parent" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivIconoCategoria"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            android:background="@color/primaryDarkColor"
+            android:layout_weight="0"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/descripcion_icono_categoria" />
+
+        <TextView
+            android:id="@+id/tvCategoria"
+            android:text="Categoria"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:paddingStart="4dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <ImageView
+            android:layout_marginTop="4dp"
+            android:src="@drawable/icono_lugar"
+            android:layout_weight="0"
+            android:background="@color/primaryDarkColor"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/descripcion_icono_estado" />
+
+        <TextView
+            android:id="@+id/tvEstado"
+            android:text="Coahuila de Zaragoza"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:paddingStart="4dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
